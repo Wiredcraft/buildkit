@@ -8,7 +8,7 @@ projects[admin][subdir] = "buildkit"
 projects[cck][version] = "2.6"
 projects[cck][subdir] = "buildkit"
 
-projects[ctools][version] = "1.3"
+projects[ctools][version] = "1.6"
 projects[ctools][subdir] = "buildkit"
 
 projects[date][version] = "2.4"
@@ -17,10 +17,10 @@ projects[date][subdir] = "buildkit"
 projects[devel][version] = "1.20"
 projects[devel][subdir] = "buildkit"
 
-projects[features][version] = "1.0-beta6"
+projects[features][version] = "1.0-beta7"
 projects[features][subdir] = "buildkit"
 
-projects[context][version] = "3.0-beta4"
+projects[context][version] = "3.0-beta5"
 projects[context][subdir] = "buildkit"
 
 projects[openidadmin][version] = "1.2"
@@ -40,11 +40,8 @@ projects[views][subdir] = "buildkit"
 ; http://drupal.org/node/670344
 projects[cck][patch][] = http://drupal.org/files/issues/cck-views-3.patch
 
-; http://drupal.org/node/786542
-projects[context][patch][] = http://drupal.org/files/issues/php53clonefailpatchfail.patch
-
 ; http://drupal.org/node/789556
-projects[features][patch][] = http://drupal.org/files/issues/789556-5_taxonomy.patch
+projects[features][patch][] = http://drupal.org/files/issues/789556-15_taxonomy.patch
 
 ; http://drupal.org/node/789674
 projects[views][patch][] = http://drupal.org/files/issues/789674-3_vocabulary_module.patch
