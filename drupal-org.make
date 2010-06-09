@@ -11,7 +11,10 @@ projects[cck][subdir] = "buildkit"
 projects[ctools][version] = "1.6"
 projects[ctools][subdir] = "buildkit"
 
-projects[date][version] = "2.4"
+projects[date][type] = "module"
+projects[date][download][type] = "cvs"
+projects[date][download][module] = "contributions/modules/date"
+projects[date][download][revision] = "DRUPAL-6--2:2010-05-02"
 projects[date][subdir] = "buildkit"
 
 projects[devel][version] = "1.20"
