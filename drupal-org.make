@@ -20,7 +20,7 @@ projects[date][subdir] = "buildkit"
 projects[devel][version] = "1.20"
 projects[devel][subdir] = "buildkit"
 
-projects[features][version] = "1.0-beta7"
+projects[features][version] = "1.0-beta8"
 projects[features][subdir] = "buildkit"
 
 projects[context][version] = "3.0-beta5"
