@@ -43,6 +43,9 @@ projects[views][subdir] = "buildkit"
 ; http://drupal.org/node/670344
 projects[cck][patch][] = http://drupal.org/files/issues/cck-views-3.patch
 
+; http://drupal.org/node/830730
+projects[cck][patch][] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
+
 ; http://drupal.org/node/789556
 projects[features][patch][] = http://drupal.org/files/issues/789556-18_taxonomy.patch
 
