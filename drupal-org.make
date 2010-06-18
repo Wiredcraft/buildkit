@@ -7,7 +7,7 @@ core = "6.x"
 projects[admin][version] = "2.0-beta3"
 projects[admin][subdir] = "buildkit"
 
-projects[cck][version] = "2.6"
+projects[cck][version] = "2.7"
 projects[cck][subdir] = "buildkit"
 
 projects[ctools][version] = "1.6"
@@ -46,14 +46,11 @@ projects[rubik][download][url] = "http://code.developmentseed.org/sites/code.dev
 projects[rubik][directory_name] = "rubik"
 projects[rubik][type] = "theme"
 projects[tao][download][type] = "get"
-projects[tao][download][url] = "http://code.developmentseed.org/sites/code.developmentseed.org/files/fserver/tao-6.x-1.8.tgz"
+projects[tao][download][url] = "http://code.developmentseed.org/sites/code.developmentseed.org/files/fserver/tao-6.x-1.10.tgz"
 projects[tao][directory_name] = "tao"
 projects[tao][type] = "theme"
 
 ; Patches
-
-; http://drupal.org/node/670344
-projects[cck][patch][] = http://drupal.org/files/issues/cck-views-3.patch
 
 ; http://drupal.org/node/830730
 projects[cck][patch][] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
