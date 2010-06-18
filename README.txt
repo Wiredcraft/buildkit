@@ -4,8 +4,8 @@ $Id$
 
 Get started building with Drupal fast.
 
-Build Kit is a basic distro meant to capture elements that are
-generally useful and make building Drupal sites and Drupal distros
+Build Kit is a basic distribution meant to capture elements that are
+generally useful and make building Drupal sites and Drupal distributions
 easier.
 
 ## Modules
