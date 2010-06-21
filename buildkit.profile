@@ -86,7 +86,12 @@ function buildkit_profile_tasks(&$task, $url) {
 }
 
 /**
- * Enable a theme.
+ * Enable a theme that lives in a profile.
+ *
+ * @param $theme_name
+ *   The name of the theme to be enabled.
+ * @param $profile_name
+ *   The name of the profile that contains the theme.
  */
 function buildkit_enable_theme($theme_name, $profile_name = 'buildkit') {
   // Set default theme. This must happen after drupal_flush_all_caches(), which
