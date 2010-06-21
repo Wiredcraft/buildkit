@@ -88,11 +88,11 @@ function buildkit_profile_tasks(&$task, $url) {
 /**
  * Enable a theme.
  */
-function buildkit_enable_theme($theme_name) {
+function buildkit_enable_theme($theme_name, $profile_name = 'buildkit') {
   // Set default theme. This must happen after drupal_flush_all_caches(), which
   // will run system_theme_data() without detecting themes in the install
   // profile directory.
-  _buildkit_system_theme_data('buildkit');
+  _buildkit_system_theme_data($profile_name);
   db_query("UPDATE {blocks} SET status = 0, region = ''"); // disable all DB blocks
   db_query("UPDATE {system} SET status = 0 WHERE type = 'theme' and name ='%s'", 'garland');
   db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name ='%s'", $theme_name);
@@ -106,9 +106,9 @@ function buildkit_enable_theme($theme_name) {
  * install profile awareness. This workaround makes enabling themes in
  * profiles/[profile]/themes possible.
  */
-function _buildkit_system_theme_data() {
+function _buildkit_system_theme_data($profile_name) {
   global $profile;
-  $profile = 'buildkit';
+  $profile = $profile_name;
 
   $themes = drupal_system_listing('\.info$', 'themes');
   $engines = drupal_system_listing('\.engine$', 'themes/engines');
