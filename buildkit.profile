@@ -25,6 +25,8 @@ function buildkit_profile_modules() {
     'user',
     // Build kit.
     'admin',
+    'openid',
+    'openidadmin',
     'content',
     'optionwidgets',
     'text',
