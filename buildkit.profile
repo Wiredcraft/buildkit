@@ -130,11 +130,13 @@ function _buildkit_system_theme_data($profile_name) {
       $sub_themes[] = $key;
     }
 
-    $engine = $themes[$key]->info['engine'];
-    if (isset($engines[$engine])) {
-      $themes[$key]->owner = $engines[$engine]->filename;
-      $themes[$key]->prefix = $engines[$engine]->name;
-      $themes[$key]->template = TRUE;
+    if (isset($themes[$key]->info['engine'])) {
+      $engine = $themes[$key]->info['engine'];
+      if (isset($engines[$engine])) {
+        $themes[$key]->owner = $engines[$engine]->filename;
+        $themes[$key]->prefix = $engines[$engine]->name;
+        $themes[$key]->template = TRUE;
+      }
     }
 
     // Give the stylesheets proper path information.
