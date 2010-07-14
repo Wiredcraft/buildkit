@@ -55,6 +55,9 @@ projects[tao][type] = "theme"
 ; http://drupal.org/node/830730
 projects[cck][patch][] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
 
+; http://drupal.org/node/518816
+projects[date][patch][] = http://drupal.org/files/issues/518816-5.date_format_date_warnings.patch
+
 ; http://drupal.org/node/789556
 projects[features][patch][] = http://drupal.org/files/issues/789556-18_taxonomy.patch
 
