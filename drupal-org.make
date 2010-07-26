@@ -58,9 +58,6 @@ projects[cck][patch][] = http://drupal.org/files/issues/cck_views_default_argume
 ; http://drupal.org/node/518816
 projects[date][patch][] = http://drupal.org/files/issues/518816-5.date_format_date_warnings.patch
 
-; http://drupal.org/node/789556
-projects[features][patch][] = http://drupal.org/files/issues/789556-18_taxonomy.patch
-
 ; http://drupal.org/node/792184
 projects[views][patch][] = http://drupal.org/files/issues/views-3-plugin_display-option_defaults-792184.patch
 
