@@ -52,6 +52,9 @@ projects[tao][type] = "theme"
 
 ; Patches
 
+; http://drupal.org/node/865454
+projects[features][patch][] = "http://drupal.org/files/issues/865454_menu_links_fix_v2.patch"
+
 ; http://drupal.org/node/830730
 projects[cck][patch][] = http://drupal.org/files/issues/cck_views_default_argument_plugin.patch
 
