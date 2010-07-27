@@ -4,7 +4,7 @@ core = "6.x"
 
 ; Modules
 
-projects[admin][version] = "2.0-beta3"
+projects[admin][version] = "2.0-beta4"
 projects[admin][subdir] = "buildkit"
 
 projects[cck][version] = "2.7"
