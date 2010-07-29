@@ -22,6 +22,9 @@ projects[date][subdir] = "buildkit"
 projects[devel][version] = "1.20"
 projects[devel][subdir] = "buildkit"
 
+projects[diff][version] = "2.0"
+projects[diff][subdir] = "contrib"
+
 projects[features][version] = "1.0-beta10"
 projects[features][subdir] = "buildkit"
 
