@@ -1,40 +1,28 @@
 name = Build Kit
-core = 6.x
+core = 7.x
 description = Get started fast on a site build.
-theme = rubik
 
 ; Core
-dependencies[] = block
 dependencies[] = book
 dependencies[] = comment
 dependencies[] = contact
 dependencies[] = dblog
-dependencies[] = filter
-dependencies[] = help
+dependencies[] = field_ui
+dependencies[] = file
 dependencies[] = menu
-dependencies[] = node
 dependencies[] = path
-dependencies[] = system
 dependencies[] = taxonomy
-dependencies[] = upload
-dependencies[] = user
 
 ; Contrib
 dependencies[] = admin
 dependencies[] = openid
 dependencies[] = openidadmin
-dependencies[] = content
-dependencies[] = optionwidgets
-dependencies[] = text
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
-dependencies[] = date_api
-dependencies[] = date_timezone
-dependencies[] = date
-dependencies[] = date_popup
+dependencies[] = devel
+dependencies[] = diff
 dependencies[] = features
-dependencies[] = jquery_ui
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
