@@ -62,12 +62,5 @@ http://drupal.org/files/issues/921144_field_filter.1_0_0.patch
 
 ; Themes ======================================================================
 
-projects[tao][type] = theme
-projects[tao][download][type] = git
-projects[tao][download][url] = git://github.com/developmentseed/tao.git
-projects[tao][download][tag] = drupal-7--3-0-beta1
-
-projects[rubik][type] = theme
-projects[rubik][download][type] = git
-projects[rubik][download][url] = git://github.com/developmentseed/rubik.git
-projects[rubik][download][tag] = drupal-7--4-0-beta1
+projects[tao][version] = 3.0-beta1
+projects[rubik][version] = 4.0-beta2
