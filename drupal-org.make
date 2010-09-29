@@ -26,7 +26,7 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-alpha2
+projects[features][version] = 1.0-alpha3
 
 projects[openidadmin][subdir] = contrib
 projects[openidadmin][version] = 1.0
@@ -55,5 +55,5 @@ http://drupal.org/files/issues/921144_field_filter.1_0_0.patch
 
 ; Themes ======================================================================
 
-projects[tao][version] = 3.0-beta1
-projects[rubik][version] = 4.0-beta2
+projects[tao][version] = 3.0-beta2
+projects[rubik][version] = 4.0-beta3
