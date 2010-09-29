@@ -41,13 +41,6 @@ projects[views][download][module] = contributions/modules/views
 projects[views][download][revision] = DRUPAL-7--3
 projects[views][download][date] = 2010-09-20
 
-projects[views][subdir] = contrib
-projects[views][type] = module
-projects[views][download][type] = cvs
-projects[views][download][module] = contributions/modules/views
-projects[views][download][revision] = DRUPAL-7--3
-projects[views][download][date] = 2010-09-20
-
 ; Field formatter
 ; http://drupal.org/node/884730
 projects[views][patch][] = http://drupal.org/files/issues/884730-formatter_settings_2.patch
