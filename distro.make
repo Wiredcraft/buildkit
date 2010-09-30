@@ -35,4 +35,4 @@ projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-f
 projects[buildkit][type] = profile
 projects[buildkit][download][type] = cvs
 projects[buildkit][download][module] = contributions/profiles/buildkit
-projects[buildkit][download][revision] = DRUPAL-7--2
+projects[buildkit][download][revision] = DRUPAL-7--2-0-BETA1
