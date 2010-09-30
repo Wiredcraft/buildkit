@@ -4,7 +4,6 @@ description = Get started fast on a site build.
 
 ; Core
 dependencies[] = book
-dependencies[] = comment
 dependencies[] = contact
 dependencies[] = dblog
 dependencies[] = field_ui
