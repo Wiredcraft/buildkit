@@ -18,7 +18,7 @@ projects[drupal][download][date] = 2010-09-29
 
 ; Create new boolean field "Cannot create references to/from string offsets nor overloaded objects"
 ; http://drupal.org/node/913528
-projects[drupal][patch][913528] = http://drupal.org/files/issues/happy_hacking.patch
+projects[drupal][patch][913528] = http://drupal.org/files/issues/process-with-test.patch
 
 ; Exportability of vocabularies is ruined by taxo field 'allowed vocabs' settings
 ; http://drupal.org/node/881530
@@ -30,7 +30,7 @@ projects[drupal][patch][911354] = http://drupal.org/files/issues/search_path_4.p
 
 ; Text formats need a machine name
 ; http://drupal.org/node/903730
-projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-format-machine-name.26.patch
+projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-format-machine-name.13.patch
 
 projects[buildkit][type] = profile
 projects[buildkit][download][type] = cvs
