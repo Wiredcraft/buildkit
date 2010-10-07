@@ -11,10 +11,7 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][download][type] = cvs
-projects[drupal][download][root] = :pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal
-projects[drupal][download][module] = drupal
-projects[drupal][download][date] = 2010-10-05
+projects[drupal][version] = "7.0-beta1"
 
 ; Create new boolean field "Cannot create references to/from string offsets nor overloaded objects"
 ; http://drupal.org/node/913528
