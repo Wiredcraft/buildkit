@@ -37,7 +37,7 @@ projects[views][type] = module
 projects[views][download][type] = cvs
 projects[views][download][module] = contributions/modules/views
 projects[views][download][revision] = DRUPAL-7--3
-projects[views][download][date] = 2010-10-18
+projects[views][download][date] = 2010-10-20
 
 ; Field formatter
 ; http://drupal.org/node/884730
