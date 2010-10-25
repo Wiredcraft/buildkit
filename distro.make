@@ -11,19 +11,19 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "7.0-beta1"
-
-; Create new boolean field "Cannot create references to/from string offsets nor overloaded objects"
-; http://drupal.org/node/913528
-projects[drupal][patch][913528] = http://drupal.org/files/issues/allowed_values_less_hacky2.patch
+projects[drupal][version] = "7.0-beta2"
 
 ; Make system directories configurable to allow tests in profiles/[name]/modules to be run.
 ; http://drupal.org/node/911354
-projects[drupal][patch][911354] = http://drupal.org/files/issues/search_path_4.patch
+projects[drupal][patch][911354] = http://drupal.org/files/issues/911354.43.patch
 
-; Text formats need a machine name
+; Missing drupal_alter() for text formats and filters 
 ; http://drupal.org/node/903730
-projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal-filter-format-machine-name-60.patch
+projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-alter.82.patch
+
+; Update.php disables modules with no files[]
+http://drupal.org/node/912700
+projects[drupal][patch][912700] = http://drupal.org/files/issues/update_remove_files_check.diff
 
 projects[buildkit][type] = profile
 projects[buildkit][download][type] = cvs

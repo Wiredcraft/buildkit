@@ -24,7 +24,9 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-alpha3
+projects[features][download][type] = cvs
+projects[features][download][module] = contributions/modules/features
+projects[features][download][revision] = DRUPAL-7--1
 
 projects[openidadmin][subdir] = contrib
 projects[openidadmin][version] = 1.0
