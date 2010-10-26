@@ -22,7 +22,7 @@ projects[drupal][patch][911354] = http://drupal.org/files/issues/911354.43.patch
 projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-alter.82.patch
 
 ; Update.php disables modules with no files[]
-http://drupal.org/node/912700
+; http://drupal.org/node/912700
 projects[drupal][patch][912700] = http://drupal.org/files/issues/update_remove_files_check.diff
 
 projects[buildkit][type] = profile
