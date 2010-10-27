@@ -27,6 +27,7 @@ projects[features][subdir] = contrib
 projects[features][download][type] = cvs
 projects[features][download][module] = contributions/modules/features
 projects[features][download][revision] = DRUPAL-7--1
+projects[features][download][date] = 2010-10-27 14:00 GMT
 
 projects[openidadmin][subdir] = contrib
 projects[openidadmin][version] = 1.0
@@ -39,11 +40,7 @@ projects[views][type] = module
 projects[views][download][type] = cvs
 projects[views][download][module] = contributions/modules/views
 projects[views][download][revision] = DRUPAL-7--3
-projects[views][download][date] = 2010-10-20
-
-; Field formatter
-; http://drupal.org/node/884730
-projects[views][patch][] = http://drupal.org/files/issues/views_formatter_settings-884730-43.patch
+projects[views][download][date] = 2010-10-27 14:00 GMT
 
 ; Themes ======================================================================
 
