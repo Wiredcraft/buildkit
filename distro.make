@@ -17,9 +17,12 @@ projects[drupal][version] = "7.0-beta3"
 ; http://drupal.org/node/911354
 projects[drupal][patch][911354] = http://drupal.org/files/issues/911354.43.patch
 
-; Missing drupal_alter() for text formats and filters 
+; Missing drupal_alter() for text formats and filters
 ; http://drupal.org/node/903730
 projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-alter.82.patch
+
+; Use vocabulary machine name for permissions
+projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
 
 projects[buildkit][type] = profile
 projects[buildkit][download][type] = cvs
