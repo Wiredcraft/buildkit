@@ -6,13 +6,13 @@ core = 7.x
 ; Modules =====================================================================
 
 projects[admin][subdir] = contrib
-projects[admin][version] = 2.0-beta2
+projects[admin][version] = 2.0-beta3
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-alpha2
+projects[context][version] = 3.0-alpha3
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-alpha1
+projects[ctools][version] = 1.0-alpha2
 
 projects[devel][subdir] = contrib
 projects[devel][type] = module
@@ -36,11 +36,7 @@ projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
 
 projects[views][subdir] = contrib
-projects[views][type] = module
-projects[views][download][type] = cvs
-projects[views][download][module] = contributions/modules/views
-projects[views][download][revision] = DRUPAL-7--3
-projects[views][download][date] = 2010-11-30 23:00 GMT
+projects[views][version] = 3.0-alpha1
 
 ; Themes ======================================================================
 
