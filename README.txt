@@ -1,4 +1,3 @@
-$Id$
 
 Build Kit 2.x for Drupal 7.x
 ----------------------------
