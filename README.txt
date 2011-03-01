@@ -61,7 +61,7 @@ extends Build Kit:
   Build Kit distro makefile and then add your new install profile to it:
 
         ; Include Build Kit distro makefile via URL
-        includes[] = http://drupalcode.org/viewvc/drupal/contributions/profiles/buildkit/distro.make?view=co&pathrev=DRUPAL-7--2
+        includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/distro.make
 
         ; Add myprofile to the full Drupal distro build
         projects[myprofile][type] = profile
@@ -73,7 +73,7 @@ extends Build Kit:
   or overrides:
 
         ; Include Build Kit install profile makefile via URL
-        includes[] = http://drupalcode.org/viewvc/drupal/contributions/profiles/buildkit/drupal-org.make?view=co&pathrev=DRUPAL-7--2
+        includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make
 
         projects[feeds][version] = 2.0-alpha1
         projects[job_scheduler][version] = 2.0-alpha1
@@ -117,5 +117,4 @@ Maintainers
 - Young Hahn (yhahn)
 
 
-[1]: http://drupalcode.org/viewvc/drupal/contributions/modules/drush_make/README.txt?view=co&pathrev=DRUPAL-6--2
-[2]: http://drupalcode.org/viewvc/drupal/contributions/modules/profiler/README.txt?view=co&pathrev=MAIN
+[1]: http://drupalcode.org/project/drush_make.git/blob_plain/refs/heads/6.x-2.x:/README.txt
