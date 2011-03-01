@@ -1,5 +1,3 @@
-; $Id$
-
 api = 2
 core = 7.x
 
@@ -16,18 +14,17 @@ projects[ctools][version] = 1.0-alpha2
 
 projects[devel][subdir] = contrib
 projects[devel][type] = module
-projects[devel][download][type] = cvs
-projects[devel][download][module] = contributions/modules/devel
-projects[devel][download][date] = 2010-10-20
+projects[devel][download][type] = git
+projects[devel][download][url] = http://git.drupal.org/project/devel.git
+projects[devel][download][revision] = 6de20b48bc157d9371453de7a375247c343fbdb3
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 
 projects[features][subdir] = contrib
-projects[features][download][type] = cvs
-projects[features][download][module] = contributions/modules/features
-projects[features][download][revision] = DRUPAL-7--1
-projects[features][download][date] = 2010-10-27 14:00 GMT
+projects[features][download][type] = git
+projects[features][download][url] = http://git.drupal.org/project/features.git
+projects[features][download][revision] = b5ad0636151d333ca30b0d77756e001413af424c
 
 projects[openidadmin][subdir] = contrib
 projects[openidadmin][version] = 1.0
