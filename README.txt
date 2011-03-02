@@ -23,7 +23,6 @@ make use of Build Kit:
 - drush 3.1 - http://drupal.org/project/drush
 - drush make 2.0 beta 9 - http://drupal.org/project/drush_make
 - git - http://git-scm.com
-- cvs - http://www.nongnu.org/cvs
 
 
 Getting started
