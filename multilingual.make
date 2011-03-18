@@ -15,6 +15,3 @@ projects[l10n_update][version] = 1.0-alpha3
 
 projects[languageicons][subdir] = multilingual
 projects[languageicons][version] = 1.0-beta1
-
-projects[transliteration][subdir] = multilingual
-projects[transliteration][version] = 3.0-alpha1
