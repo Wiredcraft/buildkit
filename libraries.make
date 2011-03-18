@@ -1,5 +1,6 @@
 api = 2
 core = 7.x
 
-libraries[profile_helper][download][type] = get
-libraries[profile_helper][download][url] = https://github.com/Wiredcraft/profile_helper/tarball/master
+libraries[profile_helper][download][type] = git
+libraries[profile_helper][download][url] = git://github.com/Wiredcraft/profile_helper.git
+libraries[profile_helper][download][branch] = master
