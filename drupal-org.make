@@ -10,7 +10,7 @@ projects[context][subdir] = contrib
 projects[context][version] = 3.0-beta1
 
 projects[ctools][subdir] = contrib
-projects[ctools][version] = 1.0-alpha2
+projects[ctools][version] = 1.0-alpha3
 
 projects[devel][subdir] = contrib
 projects[devel][version] = 1.0
@@ -33,4 +33,4 @@ projects[views][version] = 3.0-alpha1
 ; Themes ======================================================================
 
 projects[tao][version] = 3.0-beta3
-projects[rubik][version] = 4.0-beta4
+projects[rubik][version] = 4.0-beta5
