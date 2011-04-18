@@ -2,7 +2,7 @@ api = 2
 core = 7.x
 
 projects[boxes][subdir] = contrib
-projects[boxes][version] = 1.0-beta2
+projects[boxes][version] = 1.0-beta3
 
 projects[date][subdir] = contrib
 projects[date][version] = 2.0-alpha1
