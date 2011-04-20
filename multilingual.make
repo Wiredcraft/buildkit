@@ -5,7 +5,7 @@ projects[potx][subdir] = multilingual
 projects[potx][version] = 1.0
 
 projects[i18n][subdir] = multilingual
-projects[i18n][version] = 1.0-alpha4
+projects[i18n][version] = 1.0-beta4
 
 projects[l10n_client][subdir] = multilingual
 projects[l10n_client][version] = 1.0-beta3
