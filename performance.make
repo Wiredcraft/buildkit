@@ -1,5 +1,5 @@
 api = 2
 core = 7.x
 
-projects[entitycache][subdir] = "performance"
-projects[entitycache][version] = "1.0-rc2"
+projects[mongodb][subdir] = "performance"
+projects[mongodb][version] = "1.0-beta2"
