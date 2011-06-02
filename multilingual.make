@@ -8,10 +8,10 @@ projects[i18n][subdir] = "multilingual"
 projects[i18n][version] = "1.0-beta6"
 
 projects[l10n_client][subdir] = "multilingual"
-projects[l10n_client][version] = "1.0-beta3"
+projects[l10n_client][version] = "1.0"
 
 projects[l10n_update][subdir] = "multilingual"
-projects[l10n_update][version] = "1.0-beta1"
+projects[l10n_update][version] = "1.0-beta2"
 
 projects[languageicons][subdir] = "multilingual"
 projects[languageicons][version] = "1.0-beta1"

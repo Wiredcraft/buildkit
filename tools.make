@@ -26,7 +26,7 @@ projects[markdown][subdir] = "contrib"
 projects[markdown][version] = "1.0-beta1"
 
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.0-beta1"
+projects[token][version] = "1.0-beta2"
 
 projects[transliteration][subdir] = "contrib"
 projects[transliteration][version] = "3.0-alpha1"
