@@ -67,7 +67,7 @@ extends Build Kit:
         projects[myprofile][download][type] = git
         projects[myprofile][download][url] = git://github.com/myname/myprofile.git
 
-2. Enter an include statement into `myprofile.make` to include the contents of
+3. Enter an include statement into `myprofile.make` to include the contents of
   the Build Kit install profile makefile and then add any additional projects
   or overrides:
 
@@ -80,7 +80,7 @@ extends Build Kit:
 
   For more information about using makefiles see the [drush make README][1].
 
-3. Copy the contents of `buildkit.info` into `myprofile.info` and then adjust
+4. Copy the contents of `buildkit.info` into `myprofile.info` and then adjust
   its contents to reflect the metadata, modules and theme you want to enable.
   For example:
 
@@ -91,7 +91,7 @@ extends Build Kit:
         dependencies[] = feeds
         ...
 
-4. Implement `hook_install()` in `myprofile.install` to do any other setup
+5. Implement `hook_install()` in `myprofile.install` to do any other setup
   tasks for your install profile:
 
         <?php
@@ -101,11 +101,11 @@ extends Build Kit:
           variable_set('theme_default', 'stark');
         }
 
-5. Build a full distro using the following command from `profiles/myprofile`:
+6. Build a full distro using the following command from `profiles/myprofile`:
 
         $ drush make distro.make [directory]
 
-6. Choose "My First Drupal Distro" when installing Drupal!
+7. Choose "My First Drupal Distro" when installing Drupal!
 
 
 Maintainers
