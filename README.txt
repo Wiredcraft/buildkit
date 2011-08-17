@@ -37,7 +37,7 @@ patches as well as a copy of the `buildkit` install profile.
 
    or use its url on Drupal.org directly:
 
-        $ drush make "http://drupalcode.org/viewvc/drupal/contributions/profiles/buildkit/distro.make?view=co&pathrev=DRUPAL-7--2" [directory]
+        $ drush make "http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/distro.make" [directory]
 
 2. Choose the "Build Kit" install profile when installing Drupal
 
