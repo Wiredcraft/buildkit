@@ -19,18 +19,18 @@ projects[diff][subdir] = contrib
 projects[diff][version] = 2.0
 
 projects[features][subdir] = contrib
-projects[features][version] = 1.0-beta3
+projects[features][version] = 1.0-beta4
 
 projects[openidadmin][subdir] = contrib
 projects[openidadmin][version] = 1.0
 
 projects[strongarm][subdir] = contrib
-projects[strongarm][version] = 2.0-beta2
+projects[strongarm][version] = 2.0-beta3
 
 projects[views][subdir] = contrib
 projects[views][version] = 3.0-rc1
 
 ; Themes ======================================================================
 
-projects[tao][version] = 3.0-beta3
+projects[tao][version] = 3.0-beta4
 projects[rubik][version] = 4.0-beta6
